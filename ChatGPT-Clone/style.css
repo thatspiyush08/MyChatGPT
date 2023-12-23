@@ -1,0 +1,136 @@
+.background{
+    background-color: #40414f;
+    height: 2000px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Question {
+    /* display: flex;
+    justify-content: start; */
+    align-items: center;
+    background:var(--outgoing-chat-bg);
+    color: white;
+    margin-bottom: 8px;
+    padding-left: 3px;
+    /* text-align: center; */
+    
+  
+}
+
+#profile {
+    margin-top: 5px;
+    width: 50px;
+}
+
+.Response {
+    
+    align-items: center;
+    background-color: #565869;
+    color: whitesmoke;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: #666;
+    border-style:groove;
+}
+
+#Gptimg {
+    height: 15px;
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+#ball {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+    animation: pulse 1.8s infinite;
+}
+
+.dot:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.button{
+    color: white;
+    padding: 15px;
+    margin-left: 5px;
+    font-size: 25px;
+    background-color:#565869;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    
+}
+.typeChat{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    
+}
+#chatInput{
+    width: 1555px;
+    height: 50px;
+    margin-left: 25px;
+    margin-bottom:5px;
+    border-radius: 10px;
+    background-color: #565869;
+    color: white;
+    padding-left: 10px;
+    font-size:17px;
+    text-align:left;
+    
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    bottom: 0.4em;
+    
+}
+.typeBox{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 1818px;
+    align-content: center;
+    margin-bottom: 6px;
+    margin-left: 15px;
+    background-color: #40414f;
+    border-color: #fff;
+    border-top: groove;
+    height: 80px;
+
+}
+
+
+.ChatSpan{
+    position: absolute;
+    right: 0;
+    bottom: 0.1em;;
+    margin-right: 87px;
+}
+#sendBtn{
+    margin-bottom: 0.25em;
+    margin-right: 25px;
+    font-size: 16px;
+
+}
