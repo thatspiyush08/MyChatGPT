@@ -145,5 +145,14 @@
     background-color: #ddd; 
     color: #000; 
 }
+.light-mode .typeBox {
+    background-color: #fff; 
+    color: #000; 
+}
 
+.background {
+    height: 100vh; }
 
+.light-mode .Question{
+    color: #000;
+}
