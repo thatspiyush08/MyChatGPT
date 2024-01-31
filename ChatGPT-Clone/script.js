@@ -50,6 +50,19 @@ const GPTresponse=async ()=>{
 
 }
 
+const lightModeBtn = document.querySelector("#lightMode");
+const background = document.querySelector(".background");
+
+let isLightMode = false;
+
+function toggleLightMode() {
+    isLightMode = !isLightMode;
+    background.classList.toggle("light-mode", isLightMode);
+}
+
+lightModeBtn.addEventListener("click", toggleLightMode);
+
+
 function sendingMsg() {
     quest = inputmsg.value.trim();
     const ele = `<div style="display: flex; justify-content:flex-start ;align-items:center"><img src="profile.png" ; id="profile"><div class="chat">${quest}</div></div>`;

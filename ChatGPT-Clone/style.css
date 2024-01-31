@@ -2,6 +2,7 @@
     background-color: #40414f;
     height: 2000px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
 }
 
 .Question {
@@ -134,3 +135,15 @@
     font-size: 16px;
 
 }
+.light-mode {
+    background-color: whitesmoke; 
+    color: #000; 
+    
+}
+
+.light-mode .Response {
+    background-color: #ddd; 
+    color: #000; 
+}
+
+
